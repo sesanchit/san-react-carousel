@@ -1,0 +1,21 @@
+.leftArrow,
+.rightArrow {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 35px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #9ba4b4;
+  border: 1px solid #9ba4b4;
+  border-radius: 0;
+}
+
+.leftArrow::after {
+  content: " \02C2";
+}
+
+.rightArrow::after {
+  content: " \02C3";
+}
