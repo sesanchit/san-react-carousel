@@ -1,7 +1,7 @@
 {
-  "name": "san-react-carousel",
+  "name": "react-carousel",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple fade in carousel. Configurable number of cards to show.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
